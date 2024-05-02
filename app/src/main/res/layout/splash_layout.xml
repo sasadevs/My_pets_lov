@@ -9,20 +9,21 @@
     tools:context=".SplashActivity">
 
     <ImageView
+        android:id="@+id/imgSplash"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/imgLogo"
-        android:src="#2c2c2c"
-        />
+        android:src="#2c2c2c" />
+
     <TextView
+        android:id="@+id/txtLogLov"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="My Pets Lovers"
-        />
+        android:text="My Pets Lovers" />
 
     <ProgressBar
+        android:id="@+id/pgbSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
